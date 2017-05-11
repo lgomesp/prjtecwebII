@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #FF4040;
+    font-family: 'Indie Flower', cursive;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    width: 100%;
+}
+
+header,
+main,
+footer {
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 10vh;
+}
+
+main {
+    background-color: lightcoral;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 20px 0;
+}
+
+#expressao {
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#expressao p {
+    width: 120px;
+    height: 120px;
+    background-color: #FF4040;
+    border-radius: 18px;
+    font-family: Helvetica, Arial;
+    font-size: 10vh;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+#expressao #quest {
+    background-color: #FFFAFA;
+    border: 2px solid yellowgreen;
+    color: dodgerblue;
+}
+
+#botoes {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #FFFAFA;
+    border-radius: 18px;
+}
+
+img {
+    width: 12%;
+    transition: all 0.1s linear;
+    cursor: pointer;
+    padding: 0 25px;
+}
+
+img:hover {
+    opacity: 0.6;
+}
+
+h2 {
+    font-size: 6vh;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 3vh;
+}
+
+@media screen and (max-device-width: 480px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    main {
+        width: 99%;
+    }
+    #expressao {
+        width: 90%;
+        padding: 0;
+        margin-top: 5px;
+    }
+    #expressao p {
+        width: 50px;
+        height: 50px;
+        margin: 2px;
+        font-size: 2em;
+    }
+    #botoes {
+        padding: 0;
+        width: 100%;
+    }
+    #botoes img {
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        margin-top: 6px;
+    }
+}
